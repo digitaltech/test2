@@ -1,0 +1,105 @@
+.signMnDiv
+{
+	margin: 0 0 0 30%;
+}
+
+.datLi
+{
+    margin: 0% 0 0 0;
+    height:30px;
+}
+
+.anchTog
+{
+    float:left;
+    padding: 5px 0 0 12px !important;
+    margin: 0 0 0 0;
+    background-color: black;
+    width:80px;
+    color:white;
+    border-radius: 4px;
+}
+
+.rdBorder 
+{
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-top-left-radius:5px !important;
+    border-top-right-radius:5px !important ;
+}
+
+.optDown
+{
+    margin-top: 2% !important ;
+    width:100%;
+}
+
+.optDown:before
+{
+    content: '';
+    float:left;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    margin: -11px 0 0 3%;
+}
+
+.fntSz
+{
+    font-size:12px;
+}
+
+.divDat
+{
+    float:left;
+    margin: 2% 0 0 18%;
+}
+
+.divLft
+{
+    margin: 4% 0 0 25%;
+}
+
+.divLftTb
+{
+    margin: 0 0 0 20%;
+}
+
+.divLftSuc
+{
+    float: left;
+    margin: 4% 0 0 20%;
+    height: 75px;
+    width: 60%;
+}
+
+.yesBtn
+{
+    float: left;
+    margin: 0 5% 0 30%;
+}
+
+.fltLeft
+{
+    float: left;
+    width: 200px;
+}
+
+.adminTbDsg
+{
+    margin: 0 0 0 15%;
+}
+
+.msgShDiv
+{
+    height:50px;
+    //background-color: red;
+}
+
+.clrGreen
+{
+    color:green;
+}
