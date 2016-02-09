@@ -17,9 +17,9 @@ class Users
        
         if ($params['type'] == 'admin')
         {
-            $arrVals = array('user_id'=>'','user_email'=>$params['usremail'],'user_password'=>$params['usrpass'],'is_active'=>1,'is_admin'=>1,'is_super_admin'=>0,'act_code'=>0,'user_name'=>$params['usrnm'],'constituency_id'=>$params['constituency']);
+            $arrVals = array('user_id'=>'','user_email'=>$params['usremail'],'user_password'=>$params['usrpass'],'is_active'=>1,'is_admin'=>1,'is_super_admin'=>0,'act_code'=>0,'user_name'=>$params['usrnm']);
         }
-        $qrystmt  = $this->dbconn->prepare("INSERT INTO ".$this->tb_prefix."users (user_id,user_email,user_password,is_active,is_admin,is_super_admin,act_code,user_name,constituency_id) VALUES (:user_id,:user_email,:user_password,:is_active,:is_admin,:is_super_admin,:act_code,:user_name,:constituency_id) ");
+        $qrystmt  = $this->dbconn->prepare("INSERT INTO ".$this->tb_prefix."users (user_id,user_email,user_password,is_active,is_admin,is_super_admin,act_code,user_name) VALUES (:user_id,:user_email,:user_password,:is_active,:is_admin,:is_super_admin,:act_code,:user_name) ");
         $qrystmt->execute($arrVals) or die(print_r($qrystmt->errorInfo(),TRUE));
         
         return TRUE;
@@ -27,14 +27,14 @@ class Users
     
     function getAllUsers($params)
     {
-        $qrystmt  = $this->dbconn->prepare("SELECT * FROM ".$this->tb_prefix."users WHERE is_active = :is_active AND is_admin = :is_admin  ");
+        $qrystmt  = $this->dbconn->prepare("SELECT * FROM ".$this->tb_prefix."users WHERE is_active = :is_active AND is_admin = :is_admin AND is_super_admin = :is_super_admin  ");
         if ($params['type'] == "frontusers")
         {
-            $arrVal = array('is_active'=>1,'is_admin'=>0);
+            $arrVal = array('is_active'=>1,'is_admin'=>0,'is_super_admin'=>0);
         }
         else if ($params['type'] == "admins")
         {
-            $arrVal = array('is_active'=>1,'is_admin'=>1);
+            $arrVal = array('is_active'=>1,'is_admin'=>1,'is_super_admin'=>0);
         }
        
         

@@ -1,7 +1,6 @@
 <?php
 require_once '../config/classload.php';
-$Constituency = new Constituency();
-$constituencies = $Constituency->getAll();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -73,12 +72,6 @@ $constituencies = $Constituency->getAll();
                </div>
              </div>
             
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="pwd">Constituency:</label>
-                <div class="col-md-10">
-                    <select name="constituency" class="form-control" > <option value="" >-- Select Constituency --</option> <?php foreach ($constituencies as $constituency) {  ?> <option value="<?php echo $constituency['serial_no']; ?>"> <?php echo $constituency['constituency_name']; ?> </option> <?php } ?> </select>
-                </div>
-            </div>
             
              <div class="form-group"> 
                <div class="col-sm-offset-2 col-sm-10">
@@ -101,7 +94,7 @@ $constituencies = $Constituency->getAll();
           </div>
     </div>
     <div class="col-xs-2 col-sm-2 col-md-10 col-lg-10 adminTbDsg">
-        <div class="pull-right" >  <a class="btn btn-primary" href="users_admin-add">Add Admin</a> </div>
+        <div class="pull-right" >  <a class="btn btn-primary" href="users_admin-add">Add Support</a> </div>
         <table class="table table-striped" id="idtable" >
             <thead>
                 <tr>

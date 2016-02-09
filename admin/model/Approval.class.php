@@ -1,6 +1,6 @@
 <?php
 
-class TimeHall
+class Approval
 {
      function __construct() {
         $dbObj          = new Database();

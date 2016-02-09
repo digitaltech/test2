@@ -60,7 +60,7 @@
                             
                              <div style="margin-bottom: 25px" class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
-                                <input id="login-username" type="email" class="form-control" name="orgwebsite" value="" placeholder="Website">                                        
+                                <input id="login-username" type="text" class="form-control" name="orgwebsite" value="" placeholder="Website">                                        
                             </div>
                       
                             
@@ -71,12 +71,12 @@
                             
                              <div style="margin-bottom: 25px" class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
-                                <input id="login-username" type="email" class="form-control" name="cabauthname" value="" placeholder="Name">                                        
+                                <input id="login-username" type="text" class="form-control" name="cabauthname" value="" placeholder="Name">                                        
                             </div>
                             
                             <div style="margin-bottom: 25px" class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
-                                <input id="login-username" type="email" class="form-control" name="cabauthsurname" value="" placeholder="Sur Name">                                        
+                                <input id="login-username" type="text" class="form-control" name="cabauthsurname" value="" placeholder="Sur Name">                                        
                             </div>
                             
                             <div style="margin-bottom: 25px" class="input-group">
@@ -86,7 +86,7 @@
                             
                             <div style="margin-bottom: 25px" class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
-                                <input id="login-username" type="email" class="form-control" name="cabauthphone" value="" placeholder="Phone Number">                                        
+                                <input id="login-username" type="number" class="form-control" name="cabauthphone" value="" placeholder="Phone Number">                                        
                             </div>
                             
                             <div style="margin-bottom: 25px" class="input-group">

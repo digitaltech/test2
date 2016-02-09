@@ -1,7 +1,5 @@
 <?php
 require_once '../config/classload.php';
-$Constituency = new Constituency();
-$constituencies = $Constituency->getAll();
 ?>
 <!DOCTYPE html>
 <html lang="en">

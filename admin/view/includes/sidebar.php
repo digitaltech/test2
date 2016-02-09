@@ -38,66 +38,15 @@
     <ul class="nav navbar-nav side-nav">
                     
                      <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#idmessages"><i class="fa fa-fw fa-arrows-v"></i> Messages <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#idmessages"><i class="fa fa-fw fa-arrows-v"></i> Approval Requests <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="idmessages" class="collapse">
                             <li>
-                                <a href="message-manage">Manage Messages</a>
+                                <a href="message-manage">Request</a>
                             </li>
                            <!-- <li>
                                 <a href="#">Dropdown Item</a>
                             </li> -->
                         </ul>
                     </li>
-                    
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#announcment"><i class="fa fa-fw fa-arrows-v"></i> Announcments <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="announcment" class="collapse">
-                            <li>
-                                <a href="announcment-manage">Announcment</a>
-                            </li>
-                           <!-- <li>
-                                <a href="#">Dropdown Item</a>
-                            </li> -->
-                        </ul>
-                    </li>
-                    
-                  <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#polls"><i class="fa fa-fw fa-arrows-v"></i> Polls <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="polls" class="collapse">
-                            <li>
-                                <a href="poll-manage">Polls</a>
-                            </li>
-                           <!-- <li>
-                                <a href="#">Dropdown Item</a>
-                            </li> -->
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#survey"><i class="fa fa-fw fa-arrows-v"></i> Survey <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="survey" class="collapse">
-                            <li>
-                                <a href="survey-manage">Survey</a>
-                            </li>
-                           <!-- <li>
-                                <a href="#">Dropdown Item</a>
-                            </li> -->
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#timehall"><i class="fa fa-fw fa-arrows-v"></i> Time Hall <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="timehall" class="collapse">
-                            <li>
-                                <a href="timehall-manage">Time Hall</a>
-                            </li>
-                           <!-- <li>
-                                <a href="#">Dropdown Item</a>
-                            </li> -->
-                        </ul>
-                    </li>
-                    
-                   
-                  
                 </ul>
 <?php }  ?>

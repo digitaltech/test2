@@ -1,8 +1,8 @@
 <?php
-define ('DB_NAME','test2');
+define ('DB_NAME','cabs');
 define ('DB_USER','root');
 define ('DB_HOST','localhost');
-define ('DB_PASS','kspl1234');
+define ('DB_PASS','password');
 define ('DB_PREFIX','cabs_');
 define ('PROJECT_ROOT_URL','http://localhost/test2/');
 define ('ROOT_FOLDER','test2');
